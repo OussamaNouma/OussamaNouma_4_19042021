@@ -532,6 +532,7 @@ button {
 }
 
 a[data-lightbox] {
+  width: fit-content;
   position: relative;
   display: block;
   text-align: center;
@@ -550,6 +551,7 @@ a[data-lightbox]:hover::before {
   color: #fff;
   font-weight: 100;
   z-index: 1;
+  padding: 4px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
