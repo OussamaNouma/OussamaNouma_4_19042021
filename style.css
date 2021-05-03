@@ -84,6 +84,7 @@ a:hover {
   content: "";
   background-size: 2px 2px;
   position: absolute;
+  z-index: 0;
   top: 0;
   bottom: 0;
   left: 0;
@@ -643,7 +644,6 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -681,7 +681,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -776,10 +776,6 @@ h4 {
 
 .bgc-atomic-tangerine {
   background-color: #f3976c;
-}
-
-.tc-white {
-  color: #f3976c !important;
 }
 
 .btn-atomic-tangerine {
@@ -1043,4 +1039,18 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+h2 {
+  position: relative;
+  z-index: 5;
+  color: white !important;
+}
+h1 {
+  color: white !important;
+}
+.intro-contact {
+  color: white !important;
+}
+label {
+  font-size: 17px;
 }
