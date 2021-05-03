@@ -651,7 +651,6 @@ h5,
 h6,
 p,
 label,
-.btn,
 a {
   font-family: "helvetica";
   font-weight: 400;
@@ -1063,4 +1062,9 @@ label {
 }
 .portfolio-intro {
   font-size: 17pt;
+}
+.btn {
+  font-family: "helvetica";
+  font-weight: 400;
+  color: white;
 }
