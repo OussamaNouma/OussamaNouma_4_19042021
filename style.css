@@ -1054,3 +1054,13 @@ h1 {
 label {
   font-size: 17px;
 }
+.upper-description {
+  font-style: italic;
+  font-size: 15pt;
+}
+.lower-description {
+  font-size: 12pt;
+}
+.portfolio-intro {
+  font-size: 17pt;
+}
