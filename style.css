@@ -724,10 +724,6 @@ h1 {
   color: #333333 !important;
 }
 
-h4 {
-  color: #333333 !important;
-}
-
 .icons {
   margin-bottom: 14px;
   margin-top: 24px;
@@ -774,12 +770,11 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
 }
 
 .ltc-white {
@@ -851,6 +846,17 @@ h4 {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .nav_link:hover {
+    border-bottom: 2px solid black !important;
+  }
+  .nav_link {
+    transition: none;
+    height: 30px;
+    margin: 15px 15px;
+    padding: 5px 2px 0 2px !important;
   }
 }
 
@@ -1034,7 +1040,7 @@ h1 {
   color: white !important;
 }
 .intro-contact {
-  color: white !important;
+  color: black !important;
 }
 label {
   font-size: 17px;
@@ -1047,7 +1053,8 @@ label {
   font-size: 12pt;
 }
 .portfolio-intro {
-  font-size: 17pt;
+  font-size: 15pt;
+  font-weight: normal;
 }
 .btn {
   font-family: "helvetica";
@@ -1060,4 +1067,19 @@ label {
 }
 h5 {
   font-size: 14pt;
+}
+.contact_info {
+  font-size: 1.4em;
+  color: #000000 !important;
+}
+.footer_title {
+  font-size: 1.5em;
+  color: black !important;
+}
+.contact_intro_title {
+  color: black !important;
+}
+.description {
+  font-size: 1.2em;
+  color: black !important ;
 }
